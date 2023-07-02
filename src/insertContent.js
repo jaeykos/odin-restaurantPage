@@ -3,7 +3,7 @@ function insertMain(){
     insertElementToContent("h1","Welcome to the page!")
 
     let node = document.createElement("img");
-    node.src = "../src/mainImg.jpg";
+    node.src = "./src/mainImg.jpg";
     node.style.width = "30rem"
     content.appendChild(node);
 }
