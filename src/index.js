@@ -2,7 +2,7 @@
 import {clearContent} from "./clearContent.js"
 import * as insert from "./insertContent.js"
 
-insert.insertMenu()
+insert.insertMain()
 
 document.addEventListener("click",e =>{
     if (e.target.className == "tab"){clearContent();}
